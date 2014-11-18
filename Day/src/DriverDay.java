@@ -7,6 +7,9 @@ public class DriverDay
 
     public static void main(String[] args)
     {
+        /**
+         * Enters the number of days to add.
+         */
         Day myDay = new Day(2);
         System.out.print("The day of the week is ");
         myDay.printDay();
